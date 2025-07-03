@@ -1,0 +1,20 @@
+{
+  "name": "Sustainable Advisor - A Cardamon Tool",
+  "id": "1522250633180541191",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "menu": [
+    {
+      "name": "Sustainable Advisor - A Cardamon Tool",
+      "command": "open"
+    }
+  ],
+  "documentAccess": "dynamic-page",
+  "editorType": ["figma"],
+  "networkAccess": {
+    "allowedDomains": ["https://web.cardamon.io", "http://localhost:3000"],
+    "devAllowedDomains": ["*"],
+    "reasoning": "This is a tool for the Cardamon team to use to generate design suggestions for their clients."
+  }
+}
