@@ -97,7 +97,7 @@ async function fetchSuggestionStream(figmaStructure, figmaScreenshot) {
   let fullSuggestionText = '';
 
   try {
-    const response = await fetch('http://localhost:3000/app/figma/suggestion', {
+    const response = await fetch('https://web.cardamon.io/app/figma/suggestion', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ figmaStructure, figmaScreenshot }),
